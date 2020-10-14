@@ -35,9 +35,9 @@ urllib3.disable_warnings(InsecureRequestWarning)  # disable insecure https warni
 
 
 # Cisco DNA Center info
-username = 'sheusi'
-password = 'Stefan123'
-DNAC_URL = 'https://10.62.107.4'
+username = 'tbd'
+password = 'tbd'
+DNAC_URL = 'https://IP-DNAC'
 DNAC_AUTH = HTTPBasicAuth(username, password)
 
 def get_dnac_jwt_token(dnac_auth):
